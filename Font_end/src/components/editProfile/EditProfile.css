@@ -1,0 +1,21 @@
+.edit-profile {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    min-height: 100vh;
+    font-family: "Poppins", sans-serif;
+    width: 85%;
+    float: right;
+}
+
+.avatar {
+    width: 200px;
+    height: 200px;
+}
+
+.btn-cap-nhat{
+    margin-top: 10px;
+    border-radius: 5px;
+    padding: 5px;
+    
+}

@@ -1,0 +1,100 @@
+.videos-trang-chu{
+    width: 85%;
+    float: right;
+}
+span.title{
+    font-size: 20px;
+    padding: 0px 20px;
+    line-height: 700;
+}
+span.channelname {
+    font-size: 13px;
+}
+.time_options.d-flex {
+    width: 100%;
+    justify-content: center;
+    flex-direction: column;
+}
+span.views {
+    font-size: 12px;
+}
+span.timestamp {
+    font-size: 13px;
+}
+span.videos_duration{
+    bottom: 100%;
+    right: 0%;
+    top: 60%;
+    background-color: #000;
+    color: #fff;
+}
+img.channel_image.pointer {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+span.videos_duration.absolute {
+    font-size: 10px;
+}
+
+.video-streaming{
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 5px 0px;
+    justify-content: left;
+}
+
+.single-video-tieu-de p {
+    margin-bottom: 0;
+}
+
+.single-video {
+    margin-left: 10px;
+}
+
+.videos-xem-lai{
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+
+.videos-xem-lai > .row{
+    margin-bottom: 50px;
+}
+
+.danglive-xem-them .middle-line{
+    width: 100%;
+    height: 1px; /* Độ dày của đường kẻ */
+    background-color: #000; /* Màu của đường kẻ */
+    margin: 0 auto;
+}
+
+.danglive-xem-them {
+    position: relative;
+    width: 100%;
+}
+
+.danglive-xem-them .middle-line {
+    width: 100%;
+    height: 1px;
+    background-color: #000;
+    margin: 0 auto;
+}
+
+.danglive-xem-them > button {
+    position: absolute;
+    top: 50%; /* Đặt button ở giữa theo chiều dọc */
+    left: 50%; /* Đặt button ở giữa theo chiều ngang */
+    transform: translate(-50%, -50%); /* Dịch chuyển button để nó nằm chính giữa */
+    padding: 10px 20px;
+    background-color: white;
+    color: black;
+    border: 2px solid;
+    cursor: pointer;
+    border-radius: 15px;
+    
+}
+
